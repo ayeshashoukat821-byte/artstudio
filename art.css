@@ -1,0 +1,194 @@
+*{
+    font-family: "Story Script", sans-serif;
+}
+#main-nav {
+    padding: 0;
+}
+.navbar-nav{
+    width:  99%;
+    display: flex;
+    justify-content: flex-end;
+}
+#web-nav{
+    background-color:#EDE9E4;
+}
+
+.hero-section{
+    
+     width: 26rem;
+    
+     position: relative;
+     left: -18%;
+}
+.hero-img {
+    
+    display: flex;
+    align-items: center;
+}
+.hero-img img{
+    width: 80%;
+    height: 25rem;
+   
+    
+}
+.section-1{
+    background-color: #EDE9E4;
+    height: 100vh;
+}
+.Picture-2{
+    
+    height: 90%;
+    width: 60%;
+    padding-top: 12%; 
+}
+.section-2{
+    height: 100vh;
+    width: 100%;
+}
+.section-3{
+    padding-top: 18%;
+    width: 90%;
+}
+.images{ 
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+
+}
+.section-4{
+    font-size:5rem !important;
+    color:white ;
+}
+.cards{
+    height: 30rem;
+}
+.section-5{
+  
+    background-color: black;
+    color: white;
+}
+.Final{
+    height: 25rem !important;
+    width: 100%;
+}
+
+
+.Blog{
+   
+    height: 10rem !important;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.main-heading{
+    width: 18.5rem;
+    
+    margin-top: 15%;
+}
+.Paragraph{
+   width: 30rem;
+   margin-left:5% ;
+   font-size: 130%;
+   margin-top: 3%;
+   padding-block: 10px;
+}
+
+.section-6-left-pane {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-6-left-pane img {
+    width: 80%;
+}
+.read{
+     width: 200px;
+}
+.See-more{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.see{
+    width: 100px;
+}
+.contact{
+    height:20.5rem;
+
+    background-color:#EDE9E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-heading{
+    width: 23rem;
+    font-size: 180%;
+}
+.Next{
+    width: 100px;
+}
+.Follow{
+    height: 21rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-4{
+  height:100%;
+  width: 100%;
+}
+.last{
+    padding: 0;
+}
+.content{
+    height: 25rem;
+}
+li{
+    list-style-type: none;
+}
+.studio{
+    font-size: 4rem;
+    padding-bottom: 10%;
+}
+.email{
+    background-color: black;
+    color: white;
+}
+
+/* media query  */
+
+@media screen and (max-width: 768px){
+    .hero-section {
+        
+        position: static;
+        width: 80%;
+
+    }
+    .hero-img{
+        
+        justify-content: center;
+    }
+    .hero-img img {
+        width: 60%;
+    }
+    .section-3 {
+        
+        width: 100%;
+        padding-inline: 10px;
+        padding-inline-start: 20px;
+    }
+   
+}
